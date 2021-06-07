@@ -1,2 +1,2 @@
-COPY test_helloworld.txt E:\Devops\Docker
-COPY test_helloworld.txt E:\Devops\
+COPY test_helloworld.txt \Devops\Docker\
+COPY test_helloworld.txt \Devops\
