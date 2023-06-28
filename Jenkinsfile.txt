@@ -1,2 +1,0 @@
-COPY test_helloworld.txt \Devops\Docker\
-COPY test_helloworld.txt \Devops\
