@@ -1,5 +1,2 @@
-FROM nginx:alpine
-LABEL maintainer ="Srilakshmi"
-COPY ./index.html /var/www/html/
-EXPOSE 80
-CMD ["ngnix", "-g","daemon off;"]
+FROM httpd
+COPY ./index.html /usr/local/apache2/htdocs/
